@@ -84,6 +84,8 @@ content: >-
 
 
   ```
+<img width="490" height="650" alt="{6AAD05F9-B18C-4ED3-B586-7479398FD3FF}" src="https://github.com/user-attachments/assets/e30aa5f1-96c4-495f-acdc-112d28ce309a" />
+
 [hacs]: https://hacs.xyz
 [hacs_badge]: https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge
 [maintenance_badge]: https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge
