@@ -2,8 +2,8 @@
   "domain": "knmi_seismisch",
   "name": "KNMI Seismische Activiteit",
   "config_flow": true,
-  "documentation": "https://github.com/Malosaaa/ha-knmi-seismisch",
-  "issue_tracker": "https://github.com/Malosaaa/ha-knmi-seismisch/issues",
+  "documentation": "https://github.com/Malosaaa/knmi_seismisch",
+  "issue_tracker": "https://github.com/Malosaaa/knmi_seismisch/issues",
   "codeowners": [
     "@Malosaaa"
   ],
