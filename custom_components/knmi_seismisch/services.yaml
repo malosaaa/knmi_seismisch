@@ -1,0 +1,7 @@
+refresh:
+  name: Refresh KNMI Seismisch
+  description: Forceert een directe download en update van de laatste KNMI aardbevingen data.
+
+clear_files:
+  name: Clear Cache & Debug (KNMI)
+  description: Verwijdert de opgeslagen cache.json en het debug.txt bestand van de KNMI integratie.

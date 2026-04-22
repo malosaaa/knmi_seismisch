@@ -1,0 +1,58 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "KNMI Seismic Activity",
+        "description": "Set up the KNMI earthquake monitor.",
+        "data": {
+          "instance_name": "Instance Name (e.g. Netherlands)",
+          "search_terms": "Search Terms (comma separated, empty for all)",
+          "scan_interval": "Scan Interval (seconds)"
+        }
+      }
+    },
+    "error": {
+      "required": "Please fill in an instance name."
+    },
+    "abort": {
+      "already_configured": "This instance is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "KNMI Seismic Options",
+        "data": {
+          "search_terms": "Search Terms (comma separated, empty for all)",
+          "scan_interval": "Scan Interval (seconds)"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "earthquakes": {
+        "name": "Earthquakes"
+      },
+      "last_update": {
+        "name": "Last Update Time"
+      },
+      "last_status": {
+        "name": "Last Update Status"
+      },
+      "errors": {
+        "name": "Consecutive Errors"
+      }
+    }
+  },
+  "services": {
+    "refresh": {
+      "name": "Refresh KNMI Seismic",
+      "description": "Forces an immediate background download of the latest KNMI earthquake data."
+    },
+    "clear_files": {
+      "name": "Clear Cache & Debug (KNMI)",
+      "description": "Deletes the saved cache.json and debug.txt files to force a fresh start."
+    }
+  }
+}
